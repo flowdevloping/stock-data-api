@@ -3,6 +3,16 @@
 Free API to fetch stock data, based on the yfinance library.
 Hosted with AWS.
 
+## Demo
+https://flowdevloping.github.io/portfolio/stock-tracker/
+
+Using the API to fetch the live stock price data as well as the data for the diagrams.
+
+For example when a user clicks the update-button or changes the time frame of the diagram, data is fetched.
+
+The stock symbol search functionality is implemented with another Api, which offers a good free to use contingent:
+[financialmodelingprep.com](https://site.financialmodelingprep.com/)
+
 ## Usage: 
 https://irp3olgj53.execute-api.eu-central-1.amazonaws.com/dev/get_price_[TIME_FRAME]?symbol=[STOCK_SYMBOL]
 - TIME_FRAME: max, 1y, 3mo, 1mo, 5d, 1d, live
